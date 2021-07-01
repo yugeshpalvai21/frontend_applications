@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Yugesh Palvai <yugeshpalvai21@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "live-server expanding_images"
+  },
   "dependencies": {
     "live-server": "^1.2.1"
   }
