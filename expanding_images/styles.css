@@ -1,3 +1,42 @@
 body {
-    background: lightgrey;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden; 
+}
+
+.container {
+    width: 90vw;
+    display: flex;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    flex: 0.5;
+    transition: flex 0.7s;
+}
+
+.panel h3 {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    display: none;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    display: block;
 }
