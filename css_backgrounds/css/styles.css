@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +11,18 @@ body {
     background-attachment: fixed;
 }
 
+div {
+    background: white;
+    border-radius: 5px;
+}
+
 h1 {
     color: tomato;
+    width: 70vw;
+    margin: auto;
+    margin-top: 35vh;
     text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3em;
+    
 }
