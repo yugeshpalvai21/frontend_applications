@@ -5,7 +5,7 @@
   "author": "Yugesh Palvai <yugeshpalvai21@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "server": "live-server css_backgrounds"
+    "server": "live-server NewRestaurantOpen"
   },
   "dependencies": {
     "live-server": "^1.2.1"
