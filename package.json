@@ -2,10 +2,10 @@
   "name": "jsapps",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Yugesh Palvai <yugeshpalvai21@gmail.com>",
+"author": "Yugesh Palvai <yugeshpalvai21@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "server": "live-server NewRestaurantOpen"
+    "server": "live-server TourismLanding"
   },
   "dependencies": {
     "live-server": "^1.2.1"
