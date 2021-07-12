@@ -5,3 +5,42 @@
 body {
     background-color: lightgrey;
 }
+
+h5 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background: tomato;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+li {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-weight: bold;;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.active {
+    background-color:red;
+}
