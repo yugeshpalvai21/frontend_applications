@@ -5,3 +5,15 @@
 body {
     background-color: lightgrey;
 }
+
+div {
+    height: 500px;
+}
+
+.tomato {
+    background-color:tomato;
+}
+
+.blue {
+    background-color: skyblue;
+}
