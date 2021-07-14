@@ -17,3 +17,11 @@ div {
 .blue {
     background-color: skyblue;
 }
+
+div p, div h2 {
+    text-align: center;
+}
+
+div h2 {
+    margin-top: 50px;
+}
