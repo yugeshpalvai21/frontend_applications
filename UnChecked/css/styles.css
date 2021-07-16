@@ -3,5 +3,58 @@
 }
 
 body {
-    background-color:lightgrey;
+    height: 100vh;
+    background: radial-gradient(white, grey);
 }
+
+#wrapper {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+#header {
+    text-align: center;
+    background: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#header h4 {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+#list {
+    padding-top: 5px;
+    padding: 10px;
+}
+
+#list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#list ul li {
+    border-bottom: 0.5px dotted red;
+}
+
+input[type="checkbox"] {
+    float: right;
+    width: 20px;
+    height: 30px;
+}
+
+#list ul li label {
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 5px;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
